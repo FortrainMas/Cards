@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cards</title>
+</head>
+<body>
+    <main class="content">
+        <input onclick="flexGridSwapper()" type="checkbox" id="flex" name="use flex" value="1">
+        <label for="flex">Использовать flex</label>
+
+        <h1 class="title">Карточки товаров</h1>
+        <div class="cards-section grid">
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#">
+                <img src="https://cdn.sportmaster.ru/upload/resize_cache/iblock/a7b/1008_800_1/91272470299.jpg" alt="Описание картинки" >
+                <h2>Название товара</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </a>
+        </div>
+    </div>
+    </main>
+</body>
+
+<script>
+    const flexGridSwapper = ()=>{
+        const cards_section = document.querySelector(".cards-section");
+        cards_section.classList.toggle("flex");
+        cards_section.classList.toggle("grid");
+    }
+</script>
+</html>
